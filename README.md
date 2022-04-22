@@ -1,0 +1,1 @@
+# visualstudio-fail-link-clang-builtin
