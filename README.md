@@ -13,8 +13,8 @@ The use of the builtin is not representative of its current use in the productio
 To Reproduce the problem run in a Visual Studio Developer CMD :
 
 ```
-  cmake -B final -A arm64 -T CLangCL
-  cmake --build
+  cmake -B build -A arm64 -T CLangCL
+  cmake --build build
 ```
 
 Or Generate a Configuration for arm64-Clang-Debug or arm64-Clang-Release under Project / CMake Settings and build that, which should result in the following error:
